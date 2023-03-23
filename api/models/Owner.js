@@ -8,6 +8,9 @@ const OwnerSchema = new mongoose.Schema({
     res_name: {
         type: "String",
     },
+    res_type: {
+        type: "String",
+    },
     email: {
         type: "String",
     },

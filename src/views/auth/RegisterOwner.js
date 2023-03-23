@@ -67,7 +67,20 @@ export default function Register() {
                     <input
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Name"
+                      placeholder="Restaurant Name"
+                    />
+                  </div>
+                  <div className="relative w-full mb-3">
+                    <label
+                      className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                      htmlFor="grid-password"
+                    >
+                      Restaurant Type
+                    </label>
+                    <input
+                      type="email"
+                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      placeholder="Restaurant Type"
                     />
                   </div>
 
@@ -94,7 +107,7 @@ export default function Register() {
                     <input
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Name"
+                      placeholder="Address"
                     />
                   </div>
 
